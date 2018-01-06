@@ -170,6 +170,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>teach-admin</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
