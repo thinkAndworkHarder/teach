@@ -4,14 +4,17 @@ Navicat MySQL Data Transfer
 Source Server         : 本地
 Source Server Version : 50621
 Source Host           : localhost:3306
-Source Database       : teach
+Source Database       : guns
 
 Target Server Type    : MYSQL
-Target Server Version : 5062
+Target Server Version : 50621
 File Encoding         : 65001
 
 Date: 2017-12-10 11:34:35
 */
+
+DROP DATABASE IF EXISTS teach_flowable;
+CREATE DATABASE IF NOT EXISTS teach_flowable DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 
 DROP DATABASE IF EXISTS teach;
 CREATE DATABASE IF NOT EXISTS teach DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
