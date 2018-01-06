@@ -150,7 +150,7 @@ public class FlowableTest {
 
     public static void main(String[] args) {
         ProcessEngineConfiguration cfg = new StandaloneProcessEngineConfiguration()
-                .setJdbcUrl("jdbc:mysql://122.152.221.242:3306/flowable?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull")
+                .setJdbcUrl("jdbc:mysql://122.152.221.242:3306/teach_flowable?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull")
                 .setJdbcUsername("root")
                 .setJdbcPassword("root")
                 .setJdbcDriver("com.mysql.jdbc.Driver")
